@@ -21,6 +21,6 @@ def getDetail(request, pk):
 def getSimilar(request, pk):
     produk = Produk.objects.get(id = pk)
     produk_category = produk.category
-    similar_produk = Produk.objects.filter(category = produk_category).exclude(id=pk)[:5]
+    similar_produk = Produk.objects.filter(category = produk_category).exclude(id=pk)[:6]
     serializer = ProdukSerializer(similar_produk, many=True)
     return Response(serializer.data)
