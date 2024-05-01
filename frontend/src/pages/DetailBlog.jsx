@@ -33,7 +33,7 @@ const BlogDetail = () => {
                         <ul className='md:max-w-4xl lg:max-w-5xl'>
                             {blogDetail.entry && blogDetail.entry.map(entry => (
                                 <li key={entry.id} className="mb-6">
-                                    <img src={`http://217.15.168.168:8000/${entry.image}`} alt={`Image ${entry.id}`} className="md:w-full md:h-[400px] xl:h-[500px]" />
+                                    <img src={`http://217.15.168.168:8000${entry.image}`} alt={`Image ${entry.id}`} className="md:w-full md:h-[400px] xl:h-[500px]" />
                                     <p className="mt-2 text-justify md:text-[1rem] text-[.8rem]" dangerouslySetInnerHTML={{ __html: entry.deskripsi }}></p>
                                 </li>
                             ))}

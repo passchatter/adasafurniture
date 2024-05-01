@@ -68,7 +68,7 @@ const DetailProduk = () => {
         <div className="container mt-32 md:mt-44">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
              <div className="mx-auto">
-                <img className="border rounded-lg border-slate-200 w-full md:max-w-[600px] h-auto" src={`http://217.15.168.168:8000/${detail.image}`} alt="" />
+                <img className="border rounded-lg border-slate-200 w-full md:max-w-[600px] h-auto" src={`http://217.15.168.168:8000${detail.image}`} alt="" />
               </div>
               <div className="flex flex-col justify-center gap-6">
                 <h1 className="md:text-3xl text-2xl font-semibold">{detail.name}</h1>
@@ -152,7 +152,7 @@ const DetailProduk = () => {
               <SwiperSlide>
                <Link to={`/produks/detail/${sml.id}`}>
                     <div className="" key={index}>
-                        <img className='md:w-[350px] md:h-[320px] w-[200px] h-[220px]' src={`http://217.15.168.168:8000/${sml.image}`} alt="" />
+                        <img className='md:w-[350px] md:h-[320px] w-[200px] h-[220px]' src={`http://217.15.168.168:8000${sml.image}`} alt="" />
                     </div>
                </Link>
                </SwiperSlide>
