@@ -15,7 +15,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault()
     try{
-      await axios.post('http://localhost:8000/blog/sendemail/', {
+      await axios.post('http://217.15.168.168:8000/blog/sendemail/', {
         'from_email':email,
         'subject':subject,
         'message':message
@@ -54,7 +54,7 @@ const Contact = () => {
       </div>
 
       <div className="container mt-20">
-        <div className="grid md:grid-cols-3 grid-cols-1 gap-5"> 
+        <div className="grid md:grid-cols-3 grid-cols-1 gap-3"> 
             <div className="bg-slate-100/35 shadow-sm border border-slate-200/35 px-5 rounded-lg py-6 flex gap-2 items-center mb-5">
               <div className="text-5xl text-slate-700"><ion-icon name="mail-outline"></ion-icon></div>
               <div className="">
