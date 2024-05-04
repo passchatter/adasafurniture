@@ -15,7 +15,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault()
     try{
-      await axios.post('http://adasabalifurniture.com:8000/blog/sendemail/', {
+      await axios.post('https://adasabalifurniture.com/blog/sendemail/', {
         'from_email':email,
         'subject':subject,
         'message':message
