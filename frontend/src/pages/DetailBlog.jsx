@@ -11,7 +11,7 @@ const BlogDetail = () => {
     useEffect(() => {
         const fetchBlogDetail = async () => {
             try {
-                const response = await axios.get(`https://adasabalifurniture.com/blog/detail/${id}/`);
+                const response = await axios.get(`https://adasabalifurniture.com/api/blog/detail/${id}/`);
                 setBlogDetail(response.data[0]); // Ambil data pertama dari array respons
             } catch (error) {
                 console.error('Error fetching blog detail:', error);

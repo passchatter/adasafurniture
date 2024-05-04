@@ -10,7 +10,7 @@ const Blog = () => {
 
     const getBlogs = async () =>{
       try{
-        const response = await axios.get(`https://adasabalifurniture.com/blog/list/`)
+        const response = await axios.get(`https://adasabalifurniture.com/api/blog/list/`)
         return response.data
       }catch(error){
         console.log(error)
