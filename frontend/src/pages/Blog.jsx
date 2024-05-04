@@ -10,7 +10,7 @@ const Blog = () => {
 
     const getBlogs = async () =>{
       try{
-        const response = await axios.get(`http://217.15.168.168:8000/blog/`)
+        const response = await axios.get(`http://adasabalifurniture.com:8000/blog/`)
         return response.data
       }catch(error){
         console.log(error)
@@ -58,7 +58,7 @@ const Blog = () => {
                   <p className="text-gray-600 mb-4">{blog.blog.subtitle}</p>
                   {blog.entry && (
                       <div className="flex md:flex-row flex-col items-center">
-                          <img className="md:h-32 md:w-32 w-full h-40 rounded-md mr-4" src={`http://217.15.168.168:8000${blog.entry.image}`} alt="Furniture Blog" />
+                          <img className="md:h-32 md:w-32 w-full h-40 rounded-md mr-4" src={`http://adasabalifurniture.com:8000${blog.entry.image}`} alt="Furniture Blog" />
                           <div>
                               <div className='text-[.9rem]' dangerouslySetInnerHTML={{ __html:  blog.entry.deskripsi.slice(0, 400) }} />
                               <a href={`/detail/${blog.blog.id}`} className="text-blue-500 hover:underline">Read more</a>

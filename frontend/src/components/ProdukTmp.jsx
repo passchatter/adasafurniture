@@ -9,7 +9,7 @@ const ProdukTmp = ({id, gambar, text1, text2}) => {
 
   const getProduct = async () =>{
     try{
-      const response = await axios.get(`http://217.15.168.168:8000/api/produks/${id}/`)
+      const response = await axios.get(`http://adasabalifurniture.com:8000/api/produks/${id}/`)
       return response.data
     }catch(error){
       console.log(error)
@@ -58,7 +58,7 @@ const ProdukTmp = ({id, gambar, text1, text2}) => {
           return(
             <Link to={`/produks/detail/${prd.id}/`}>
               <div className="" key={index}>
-                <img src={`http://217.15.168.168:8000${prd.image}`} alt="" />
+                <img src={`http://adasabalifurniture.com:8000${prd.image}`} alt="" />
                 <h1 className='text-center'>{prd.name}</h1>
               </div>
             </Link>
