@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="grid gap-5 md:grid-cols-2 md:gap-10 lg:flex md:justify-between">
                 <div className="header max-w-sm">
                     <div className="flex items-center gap-3">
-                    <img className='w-[130px] md:w-[200px]' src={gambar2} alt="" /> 
+                    <img className='w-[130px] md:w-[200px]' src={gambar2} alt="furniture bali export adasabalifurniture.com" /> 
                     </div>
                     <p className="mt-3 md:text-[1rem] text-[.9rem]">
 Indonesia, famed for its Bali furniture, handicrafts, and rattan wood exports, supplies 80% of the world's raw rattan canes. Leveraging Bali's resources and artisanal expertise, Indonesia remains a global leader in providing top-quality products to meet international demands.</p>

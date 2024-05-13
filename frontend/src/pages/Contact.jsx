@@ -5,6 +5,7 @@ import gambar2 from '../images/logo2.png'
 import gambar from '../images/contact.jpg'
 import axios from 'axios'
 import { useState } from 'react'
+import { Helmet } from 'react-helmet'
 
 const Contact = () => {
 
@@ -28,6 +29,10 @@ const Contact = () => {
 
   return (
     <>
+     <Helmet>
+        <title>Bali Furniture Export: Contact Us for premium wood, handicrafts, and rattan creations in Bali</title>
+        <meta name="description" content="Get in touch with us for inquiries, collaborations, and more. Discover our premium wood, handicrafts, and rattan creations." />
+      </Helmet>
       <Navbar color='text-white' gambar1={gambar1} gambar2={gambar2}/>
       <div className="relative h-[50vh] md:h-[60vh]">
         <div className="w-full h-[50vh] md:h-[60vh] overflow-hidden relative">

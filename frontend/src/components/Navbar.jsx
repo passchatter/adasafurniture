@@ -8,6 +8,12 @@ import blacklogo from '../images/logo2.png'
 const Navbar = ({color, gambar1, gambar2}) => {
     let [open, setOpen] = useState(false)
     const [scrolled, setScrolled] = useState(false);
+    const [dropOpen, setDropOpen] = useState(false);
+
+    const handleDrop = () =>{
+        setDropOpen(!dropOpen)
+    }
+
     useEffect(() => {
         const handleScroll = () => {
           const isScrolled = window.scrollY > 20; // Ubah angka ini sesuai kebutuhan scroll yang diinginkan
@@ -33,7 +39,16 @@ const Navbar = ({color, gambar1, gambar2}) => {
                         <li><a href="/#home" className={`text-md ${scrolled ? 'text-slate-900' : color}`}>Home</a></li>
                         <li><a href="/#about" className={`text-md ${scrolled ? 'text-slate-900' : color}`}>About</a></li>
                         <li><a href="/#galerry" className={`text-md ${scrolled ? 'text-slate-900' : color}`}>Galery</a></li>
-                        <li><a href="/#products" className={`text-md ${scrolled ? 'text-slate-900' : color}`}>Products</a></li>     
+                        <li className="relative">
+                            <a onClick={handleDrop} className={`text-md ${scrolled ? 'text-slate-900' : color}`}>Products</a>
+                            <div className={`origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white transition-all duration-300 ${dropOpen ? 'scale-y-100 opacity-100' : 'scale-y-0 opacity-0'}`}>
+                                <ul>
+                                <li><a href="/furniture" className="block rounded-md px-4 py-3 hover:bg-gray-200">Wood</a></li>
+                                <li><a href="/handicraf" className="block rounded-md px-4 py-3 hover:bg-gray-200">Handicraft</a></li>
+                                <li><a href="/rattan" className="block rounded-md px-4 py-3 hover:bg-gray-200">Rattan</a></li>
+                                </ul>
+                            </div>
+                        </li>
                         <li><a href={'/contact'} className={`text-md ${scrolled ? 'text-slate-900' : color}`}>Contact Us</a></li>     
                         <li><a href={'/blog'} className={`text-md ${scrolled ? 'text-slate-900' : color}`}>Blog</a></li>     
                  </ul>     
@@ -46,7 +61,16 @@ const Navbar = ({color, gambar1, gambar2}) => {
                         <li><a href="/#home" className={`text-slate-900 text-md`}>Home</a></li>
                         <li><a href="/#about" className={`text-slate-900 text-md`}>About</a></li>
                         <li><a href="/#galeryy" className={`text-slate-900 text-md`}>Galery</a></li>
-                        <li><a href="/#products" className={`text-slate-900 text-md`}>Products</a></li>
+                        <li className="relative">
+                            <a onClick={handleDrop} className={`text-slate-900 text-md`}>Products</a>
+                            <div className={`origin-top-right absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white transition-all duration-300 ${dropOpen ? 'scale-y-100 opacity-100' : 'scale-y-0 opacity-0'}`}>
+                                <ul>
+                                <li><a href="/furniture" className="block rounded-md px-4 py-3 hover:bg-gray-200">Wood</a></li>
+                                <li><a href="/handicraf" className="block rounded-md px-4 py-3 hover:bg-gray-200">Handicraft</a></li>
+                                <li><a href="/rattan" className="block rounded-md px-4 py-3 hover:bg-gray-200">Rattan</a></li>
+                                </ul>
+                            </div>
+                        </li>
                         <li><a href="/contact" className={`text-slate-900 text-md`}>Contact Us</a></li>
                         <li><a href="/blog" className={`text-slate-900 text-md`}>Blog</a></li>
                     </ul>     

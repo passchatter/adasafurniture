@@ -86,9 +86,7 @@ const Products = () => {
         </Swiper>
 
 
-        <div className="flex justify-center items-center mt-10">
-             <a href="#about" className='bg-[#f9b82b] px-5 py-3 rounded-lg text-white inline-block max-w-max text-center'>Download Catalog</a>
-        </div>
+        
     </div>
 
     <div className="relative h-[70vh] bg-cover bg-center bg-no-repeat bg-fixed bg-hero flex items-center text-center justify-center">

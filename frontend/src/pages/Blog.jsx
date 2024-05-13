@@ -5,6 +5,7 @@ import gambar2 from '../images/logo2.png'
 import gambar from '../images/blog.jpg'
 import axios from 'axios'
 import { useState, useEffect } from 'react'
+import { Helmet } from 'react-helmet'
 const Blog = () => {
     const [blogs, setBlogs] = useState([])
 
@@ -25,6 +26,10 @@ const Blog = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Bali Furniture Blog: Tips, Inspiration, and Insights</title>
+        <meta name="description" content="Explore our Bali Furniture blog for tips, inspiration, and insights about premium wood furniture, handicrafts, and rattan creations. Stay updated with the latest trends and news in the industry. Get inspired to enhance your home with our high-quality products!" />
+      </Helmet>
       <Navbar color='text-white' gambar1={gambar1} gambar2={gambar2}/>
       <div className="relative h-[50vh] md:h-[60vh]">
         <div className="w-full h-[50vh] md:h-[60vh] overflow-hidden relative">
