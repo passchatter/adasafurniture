@@ -23,7 +23,7 @@ const Header = () => {
     },
    
   ];
-s
+
   useEffect(() => {
     const imageInterval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
