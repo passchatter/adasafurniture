@@ -10,15 +10,15 @@ const Header = () => {
   const [contentIndex, setContentIndex] = useState(0);
   const contents = [
     {
-      title: 'Discover Authentic Bali Furniture Export: Luxurious Wood, Rattan, and Handicrafts',
-      description: 'Welcome to Bali Furniture Export, an exclusive portal for luxury furniture and authentic Balinese handicrafts. Discover natural and local beauty with our collection that includes wooden furniture, rattan furniture and unique handicrafts, ready to beautify your international space.',
+      title: 'Discover Authentic Bali furniture export Luxurious Wood, Rattan, and Handicrafts',
+      description: 'Bali Furniture Export, an exclusive portal for luxury furniture and authentic Bali handicrafts. Discover natural and local beauty with our collection that includes wooden furniture, rattan furniture and unique handicrafts, ready to beautify your international space.',
     },
     {
-      title: 'Elevate Your Space with Bali Furniture Export: Premium Wood, Rattan, and Handicrafts',
+      title: 'Elevate Your Space with Bali furniture export Premium Wood, Rattan, and Handicrafts',
       description: 'Transform your living space into a sanctuary of elegance with Bali Furniture Export exquisite collection. Explore our range of premium wood furniture, rattan creations, and artisanal handicrafts, meticulously crafted in Bali and destined to enrich homes worldwide.'
     },
     {
-      title: 'Experience Bali Artistry: Exported Wood, Rattan, and Handicraft Furniture',
+      title: 'Experience Bali furniture export Artistry Export Wood, Rattan, and Handicraft Furniture',
       description: 'Embark on a journey of artistry and craftsmanship in Bali Furniture Export. Immerse yourself in the timeless beauty of our wood furniture, rattan masterpieces, and intricately crafted handicrafts, each piece reflecting the soul and spirit of Bali rich cultural heritage.',
     },
    

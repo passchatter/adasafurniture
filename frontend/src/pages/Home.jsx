@@ -17,7 +17,7 @@ const Home = () => {
     <>
         <Helmet>
           <title>Bali furniture export discover premium wood, handicrafts, and rattan creations in Bali </title>
-          <meta name="description" content="Explore our exquisite collection of Bali furniture and handicrafts for export. Discover premium wood furniture, handicrafts, and rattan creations inspired by the beauty of Bali. Enhance your home with our high-quality and authentic products. Get in touch with us to learn more!" />
+          <meta name="description" content="Explore our exquisite collection of Bali furniture and handicrafts for export in Bali. Discover premium wood furniture, handicrafts, and rattan creations inspired by the beauty of Bali. Enhance your home with our high-quality and authentic products. Get in touch with us to learn more!" />
         </Helmet>
         <Navbar color='text-white' gambar1={gambar1} gambar2={gambar2}/>
         <Header/>

@@ -30,7 +30,7 @@ const Contact = () => {
   return (
     <>
      <Helmet>
-        <title>Bali Furniture Export: Contact Us for premium wood, handicrafts, and rattan creations in Bali</title>
+        <title>Bali Furniture Export Contact Us for premium wood, handicrafts, and rattan creations in Bali</title>
         <meta name="description" content="Get in touch with us for inquiries, collaborations, and more. Discover our premium wood, handicrafts, and rattan creations." />
       </Helmet>
       <Navbar color='text-white' gambar1={gambar1} gambar2={gambar2}/>
@@ -49,7 +49,7 @@ const Contact = () => {
             <div className="z-10 flex items-center h-[50vh] md:h-[60vh]"> 
               <div className="max-w-2xl mx-auto text-white transition-opacity duration-500"> 
                 <h1 className="md:text-5xl text-3xl text-white font-bold mb-4">
-                  Contact Us
+                  Contact Us To Bali furniture export
                 </h1>
                 <p className="text-slate-100 text-[.9rem] md:text-[1rem]">"Get in Touch for Expert Assistance"</p>
               </div>
