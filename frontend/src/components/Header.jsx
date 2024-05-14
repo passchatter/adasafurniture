@@ -10,7 +10,7 @@ const Header = () => {
   const [contentIndex, setContentIndex] = useState(0);
   const contents = [
     {
-      title: 'Discover Authentic Bali furniture export Luxurious Wood, Rattan, and Handicrafts',
+      title: 'Bali furniture export Luxurious Wood, Rattan, and Handicrafts Discover Authentic',
       description: 'Bali Furniture Export, an exclusive portal for luxury furniture and authentic Bali handicrafts. Discover natural and local beauty with our collection that includes wooden furniture, rattan furniture and unique handicrafts, ready to beautify your international space.',
     },
     {
