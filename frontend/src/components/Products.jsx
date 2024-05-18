@@ -23,7 +23,7 @@ const Products = () => {
             <p className='text-slate-700 text-[.9rem]'>Domestic rattan industry is expected to contribute foreign exchange as a period in 1988 when the rattan industry was victorious, because the current situation in 1988 is equal to the current situation that the government conducts a policy of protection by banning the export of raw rattan.</p>
             </div>
             <div className="relative" data-aos="fade-up" data-aos-delay="100">
-            <img className='' src={iklan1} alt="" />
+            <img className='' src={iklan1} alt="furniture bali export base in Bali good quality produks" />
             </div>
         </div>
     </div>
@@ -52,7 +52,7 @@ const Products = () => {
                     <a href={'/handicraf'} className='text-primary border hover:text-white hover:bg-primary inline-block mt-5 border-primary px-5 py-3 rounded-md'>View More</a>
                 </div>
                 <div className="">
-                    <img src={handicraf} alt="" />
+                    <img src={handicraf} alt="handicraf produk furniture bali export" />
                 </div>
             </div>
             </SwiperSlide>
@@ -66,7 +66,7 @@ const Products = () => {
                     <a href={'/furniture'} className='text-primary border hover:text-white hover:bg-primary inline-block mt-5 border-primary px-5 py-3 rounded-md'>View More</a>
                 </div>
                 <div className="">
-                    <img src={furniture} alt="" />
+                    <img src={furniture} alt="wood produk base made in bali furniture bali export" />
                 </div>
             </div>
             </SwiperSlide>
@@ -79,7 +79,7 @@ const Products = () => {
                     <a href={'/rattan'} className='text-primary border hover:text-white hover:bg-primary inline-block mt-5 border-primary px-5 py-3 rounded-md'>View More</a>
                 </div>
                 <div className="">
-                    <img src={rattan} alt="" />
+                    <img src={rattan} alt="good quality rattan produk in furniture bali export" />
                 </div>
             </div>
             </SwiperSlide>
@@ -92,7 +92,7 @@ const Products = () => {
     <div className="relative h-[70vh] bg-cover bg-center bg-no-repeat bg-fixed bg-hero flex items-center text-center justify-center">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="container relative">
-            <h1 className="text-white leading-[3rem] text-3xl font-bold md:text-4xl">"The Premier Destination for Bali Export Furniture, Rattan, Wood, and Handicrafts"</h1>
+            <h1 className="text-white leading-[3rem] text-3xl font-bold md:text-4xl">The Premier Destination for Furniture Bali Export, Rattan, Wood, and Handicrafts</h1>
         </div>
     </div>
 

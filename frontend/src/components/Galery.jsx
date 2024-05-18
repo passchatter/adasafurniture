@@ -53,7 +53,7 @@ const Gallery = () => {
         >
           <img
             src={image}
-            alt={`Image ${index}`}
+            alt={`furniture bali export in Bali best quality produk wood, rattan and hadicraft`}
             
             className={`w-full h-auto transition-all duration-300 rounded-md shadow-lg ${
                 hoveredImage === index ? 'transform translate-y-[-5px] translate-x-[-5px] scale-105' : ''

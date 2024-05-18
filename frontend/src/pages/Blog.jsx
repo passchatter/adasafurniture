@@ -27,7 +27,7 @@ const Blog = () => {
   return (
     <>
       <Helmet>
-        <title>Bali Furniture Blog Tips, Inspiration, and Insights</title>
+        <title>Furniture Bali Export Tips, Inspiration, and Insights </title>
         <meta name="description" content="Export our Bali Furniture blog for tips, inspiration, and insights about premium wood furniture, handicrafts, and rattan creations. Stay updated with the latest trends and news in the industry. Get inspired to enhance your home with our high-quality products!" />
       </Helmet>
       <Navbar color='text-white' gambar1={gambar1} gambar2={gambar2}/>

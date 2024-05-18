@@ -30,7 +30,7 @@ const Contact = () => {
   return (
     <>
      <Helmet>
-        <title>Bali Furniture Export Contact Us for premium wood, handicrafts, and rattan creations in Bali</title>
+        <title>Furniture Bali Export Contact Us for premium wood, handicrafts, and rattan creations in Bali</title>
         <meta name="description" content="Get in touch with us for inquiries, collaborations, and more. Discover our premium wood, handicrafts, and rattan creations." />
       </Helmet>
       <Navbar color='text-white' gambar1={gambar1} gambar2={gambar2}/>

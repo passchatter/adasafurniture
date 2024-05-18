@@ -41,13 +41,14 @@ const About = () => {
 
         <div className="md:flex grid grid-cols-1 md:justify-between items-center md:pt-0 pt-10 mb-4 gap-10">
             <div className="max-w-xl" data-aos="fade-right" data-aos-delay="100">
-                <h1 className='text-slate-900 text-3xl md:text-4xl leading-[2.5rem] md:leading-[3rem]'>"A Heritage of Exquisite Craftsmanship in Wood, Rattan and Handicrafts"</h1>
-                <p className='text-slate-600 text-[.9rem] mt-4 leading-5'>Adasabalifurniture, based in Bali, Indonesia, specializes in crafting high-quality furniture and handicrafts, deeply rooted in the island's rich arts and culture. Collaborating closely with local artisans, we blend traditional techniques with contemporary design to meet global demands. Committed to sustainability, we responsibly source raw materials, ensuring eco-friendly and premium-quality products. With a relentless focus on customer satisfaction, we continuously innovate in design, production, and service to exceed expectations in the Bali furniture export market.</p>
+                <h1 className='text-slate-900 text-3xl md:text-4xl leading-[2.5rem] md:leading-[3rem]'>Bali furniture export Luxurious Wood, Rattan, and Handicrafts Discover Authentic</h1>
+                
+                <p className='text-slate-600 text-[.9rem] mt-4 leading-5'>Based in Bali, Indonesia, specializes in crafting high-quality furniture and handicrafts, deeply rooted in the island's rich arts and culture. Collaborating closely with local artisans, we blend traditional techniques with contemporary design to meet global demands. Committed to sustainability, we responsibly source raw materials, ensuring eco-friendly and premium-quality products. With a relentless focus on customer satisfaction, we continuously innovate in design, production, and service to exceed expectations in the Bali furniture export market.</p>
 
             </div>
             <div className="grid grid-cols-2 gap-3" data-aos="fade-left" data-aos-delay="400">
                 <div className="flex flex-col gap-3">
-                    <img src={about1} className="w-full h-auto" alt="furniture bali export adasabalifurniture.com" />
+                    <img src={about1} className="w-full h-auto" alt="furniture bali export base in Bali" />
                     <div className="w-[200px] h-[150px] bg-primary  self-end text-white font-bold flex items-center justify-center">
                         <div className="text-center">
                             <h1 className='text-3xl'>122++</h1>
@@ -62,7 +63,7 @@ const About = () => {
                             <p>professional</p>
                         </div>
                     </div>
-                    <img src={about2} className="w-[500px] h-auto" alt="furniture bali export adasabalifurniture.com" />
+                    <img src={about2} className="w-[500px] h-auto" alt="furniture bali export rattan and handicraft good quality" />
                 </div>
             </div>
         </div>
@@ -92,7 +93,7 @@ const About = () => {
 
      <div className="pb-16 bg-secondary">
         <div className="md:flex grid grid-cols-1 items-center gap-7">
-            <img src={about3} alt="furniture bali export adasabalifurniture.com" className='rounded-xl mt-[-5rem] w-full md:w-[40%] h-[400px] md:h-[500px]' />
+            <img src={about3} alt="furniture bali export best quality produk handicraf in Bali" className='rounded-xl mt-[-5rem] w-full md:w-[40%] h-[400px] md:h-[500px]' />
             <div className="max-w-lg mx-auto container py-10 md:py-0">
                 <h1 className='text-slate-900 text-3xl leading-[2.5rem] mb-4' data-aos="fade-up" data-aos-delay="100">"10 Years of Expertise in Bali Furniture and Export Rattan Handicrafts"</h1>
                 <p className='text-slate-800 text-[.9rem]' data-aos="fade-up" data-aos-delay="500">With a legacy spanning two decades, we've emerged as a premier name in the Bali furniture and export rattan handicrafts sector. Armed with extensive experience and unwavering dedication, we've crafted a diverse array of premium products tailored to meet our customers' varied needs and desires. From exquisite furniture pieces to captivating home accessories, each creation is meticulously curated to deliver unparalleled satisfaction. Embark on a journey of quality and elegance with us, as we continue to raise the bar and set new benchmarks in the industry.</p>
