@@ -18,7 +18,7 @@ Indonesia, famed for its Furniture Bali Export, handicrafts, and rattan wood exp
                 <div className="lg:max-w-[250px]">
                     <h1 className="text-white md:text-xl text-lg mb-3">Contact Us</h1>
                     <p className="mb-2">Jimbaran, kuta selatan, Badung</p>
-                    <p className="flex items-center mb-2 gap-2" ><ion-icon name="mail" className="text-white text-xl"></ion-icon> <a href="mailto:adasabalifurniture@gmail.com" target="_blank">adasabalifurniture@gmail.com</a></p>
+                    <p className="flex items-center mb-2 gap-2" ><ion-icon name="mail" className="text-white text-xl"></ion-icon> <a href="mailto:info@adasabalifurniture.com" target="_blank">info@adasabalifurniture.com</a></p>
                     <a href="https://wa.me/6282114300284?text=I%20am%20very%20interested%20in%20your%20furniture%20products%20after%20seeing%20the%20collection.%20Can%20you%20provide%20more%20information%20about%20availability%20and%20pricing%20for%20some%20of%20the%20items%20I'm%20interested%20in?" target="_blank">
                       <p className="flex items-center mb-2 gap-2" ><ion-icon name="call" className="text-white text-xl"></ion-icon> +6282114300284</p>
                     </a>

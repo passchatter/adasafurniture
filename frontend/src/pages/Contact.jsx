@@ -64,7 +64,7 @@ const Contact = () => {
               <div className="text-5xl text-slate-700"><ion-icon name="mail-outline"></ion-icon></div>
               <div className="">
                 <h1 className='text-slate-700 font-semibold'>Email</h1>
-                <p className='text-[.9rem] text-slate-600'>adasabalifurniture@gmail.com</p>
+                <p className='text-[.9rem] text-slate-600'>info@adasabalifurniture.com</p>
               </div>
             </div>
             <div className="bg-slate-100/35 shadow-sm border border-slate-200/35 px-5 rounded-lg py-6 flex gap-2 items-center mb-5">
@@ -94,7 +94,7 @@ const Contact = () => {
                         </p>
                         <p className="mb-2 text-neutral-700 text-[.9rem]">Kec. Kuta Utara,, Badung, Bali, Indonesia</p>
                         <p className="mb-2 text-neutral-700 text-[.9rem]">(+62) 821-1430-0284</p>
-                        <p className="mb-2 text-neutral-700 text-[.9rem]">adasabalifurniture@gmail@gmail.com</p>
+                        <p className="mb-2 text-neutral-700 text-[.9rem]">info@adasabalifurniture.com</p>
                     </div>
                     <div className="w-full md:w-6/12 lg:px-6">
                         <form onSubmit={handleSubmit}>

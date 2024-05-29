@@ -41,7 +41,7 @@ const About = () => {
 
         <div className="md:flex grid grid-cols-1 md:justify-between items-center md:pt-0 pt-10 mb-4 gap-10">
             <div className="max-w-xl" data-aos="fade-right" data-aos-delay="100">
-                <h1 className='text-slate-900 text-3xl md:text-4xl leading-[2.5rem] md:leading-[3rem]'>Bali furniture export Luxurious Wood, Rattan, and Handicrafts Discover Authentic</h1>
+                <h1 className='text-slate-900 text-3xl md:text-4xl leading-[2.5rem] md:leading-[3rem]'>High Quality Furniture Bali Export | Bali Finest Craftsmanship handicrafts, and rattan creations in Bali</h1>
                 
                 <p className='text-slate-600 text-[.9rem] mt-4 leading-5'>Based in Bali, Indonesia, specializes in crafting high-quality furniture and handicrafts, deeply rooted in the island's rich arts and culture. Collaborating closely with local artisans, we blend traditional techniques with contemporary design to meet global demands. Committed to sustainability, we responsibly source raw materials, ensuring eco-friendly and premium-quality products. With a relentless focus on customer satisfaction, we continuously innovate in design, production, and service to exceed expectations in the Bali furniture export market.</p>
 

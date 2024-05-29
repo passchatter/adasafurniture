@@ -103,7 +103,7 @@ const DetailProduk = () => {
         </div>
 
         <div className="mt-28 md:max-w-5xl">
-          <h1 className='text-slate-900 text-lg md:text-2xl'>Adasa Bali Furniture</h1>
+          <h1 className='text-slate-900 text-lg md:text-2xl'>Furniture Bali Export</h1>
 
           <p className='md:text-[1rem] text-[.9rem] text-slate-700 mt-5'>From classic designs to contemporary concepts, each of our products is produced with high-quality materials and skilled craftsmanship. Do you want something that fits your space perfectly? Does not matter! We also accept special orders that will be tailored to your wishes and needs, so that your dream home can be realized perfectly.</p>
           <p className='md:text-[1rem] text-[.9rem] text-slate-700 mt-5'>With our focus on excellence in every step of production, we are here to be your trusted partner in creating comfortable and beautiful spaces. Every piece of furniture we offer is not only an aesthetic addition, but also a long-term investment in your comfort and lifestyle. From the living room to the bedroom, we offer the right solution for every corner of your home. Explore our collection and discover the magic in every detail.</p>
@@ -114,7 +114,7 @@ const DetailProduk = () => {
             <h1>Phone : <a href="https://wa.me/6282114300284?text=I%20am%20very%20interested%20in%20your%20furniture%20products%20after%20seeing%20the%20collection.%20Can%20you%20provide%20more%20information%20about%20availability%20and%20pricing%20for%20some%20of%20the%20items%20I'm%20interested%20in?" target="_blank"><span className='md:text-lg text-[.9rem] text-blue-500'>(+62) 821-1430-0284</span></a></h1>
             <h1 className='mb-8'>Phone : <a href="https://wa.me/6285737549107?text=I%20am%20very%20interested%20in%20your%20furniture%20products%20after%20seeing%20the%20collection.%20Can%20you%20provide%20more%20information%20about%20availability%20and%20pricing%20for%20some%20of%20the%20items%20I'm%20interested%20in?" target="_blank"><span className='md:text-lg text-[.9rem] text-blue-500'>(+62) 857-3754-9107</span></a></h1>
             <p>Need help or have a question?</p>
-            <p>Contact us at: adasabalifurniture@gmail.com</p>
+            <p>Contact us at: info@adasabalifurniture.com</p>
           </div>
         </div>
         </div>
